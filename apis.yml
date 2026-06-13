@@ -1,0 +1,104 @@
+aid: alloy
+name: Alloy
+description: >-
+  Alloy is an identity decisioning platform that provides a single REST API for
+  running KYC/KYB workflows, evaluating applicant risk, automating compliance
+  decisions, and managing ongoing monitoring throughout the customer lifecycle.
+  The platform connects banks and fintechs to more than 85 data sources for
+  fraud prevention, credit underwriting, transaction monitoring, and regulatory
+  compliance via configurable workflow-based evaluations and journey applications.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/alloy/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - Identity Verification
+  - KYC
+  - KYB
+  - Fraud Prevention
+  - Compliance
+  - Onboarding
+  - Transaction Monitoring
+  - Risk Decisioning
+  - AML
+  - Fintech
+apis:
+  - aid: alloy:alloy-identity-api
+    name: Alloy Identity API
+    description: >-
+      The Alloy Identity API provides endpoints for creating and managing person
+      and business entities, running evaluations through configurable risk
+      workflows, managing journey applications, submitting events for ongoing
+      monitoring, handling document verification, and managing investigations and
+      case alerts. Authentication is via Basic HTTP credentials or OAuth 2.0
+      Client Credentials. A sandbox environment is available at
+      sandbox.alloy.co for testing.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.alloy.com/public/docs/introduction
+    baseURL: https://sandbox.alloy.co/v1
+    tags:
+      - Identity
+      - KYC
+      - KYB
+      - Fraud
+      - Compliance
+      - Onboarding
+      - Monitoring
+    properties:
+      - type: Documentation
+        url: https://developer.alloy.com/public/docs/introduction
+      - type: APIReference
+        url: https://developer.alloy.com/public/reference
+      - type: Authentication
+        url: https://developer.alloy.com/public/docs/authentication-guide
+      - type: Sandbox
+        url: https://sandbox.alloy.co/v1
+      - type: Webhooks
+        url: https://developer.alloy.com/public/docs/webhooks
+      - type: OpenAPI
+        url: https://developer.alloy.com/llms.txt
+      - type: iOSSDK
+        url: https://github.com/useAlloy/alloy-codeless-lite-ios
+      - type: AndroidSDK
+        url: https://github.com/useAlloy/alloy-codeless-lite-android
+    contact:
+      - FN: Alloy Support
+        url: https://help.alloy.com/hc/en-us
+common:
+  - type: Website
+    url: https://www.alloy.com
+  - type: Documentation
+    url: https://developer.alloy.com/public/docs/introduction
+  - type: DeveloperPortal
+    url: https://www.alloy.com/developer
+  - type: APIReference
+    url: https://developer.alloy.com/public/reference
+  - type: GitHubOrg
+    url: https://github.com/useAlloy
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/alloy-apis
+  - type: Blog
+    url: https://www.alloy.com/blog
+  - type: ContentLibrary
+    url: https://www.alloy.com/content-library
+  - type: StatusPage
+    url: https://status.alloy.com
+  - type: StatusPageAlt
+    url: https://alloy.statuspage.io
+  - type: HelpCenter
+    url: https://help.alloy.com/hc/en-us
+  - type: Security
+    url: https://www.alloy.com/security
+  - type: X
+    url: https://x.com/usealloy
+  - type: Plans
+    url: plans/alloy-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/alloy-rate-limits.yml
+  - type: FinOps
+    url: finops/alloy-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

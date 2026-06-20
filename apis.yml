@@ -8,7 +8,7 @@ description: >-
   fraud prevention, credit underwriting, transaction monitoring, and regulatory
   compliance via configurable workflow-based evaluations and journey applications.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/alloy/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -35,7 +35,7 @@ apis:
       case alerts. Authentication is via Basic HTTP credentials or OAuth 2.0
       Client Credentials. A sandbox environment is available at
       sandbox.alloy.co for testing.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://developer.alloy.com/public/docs/introduction
     baseURL: https://sandbox.alloy.co/v1
     tags:

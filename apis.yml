@@ -67,6 +67,8 @@ apis:
       - FN: Alloy Support
         url: https://help.alloy.com/hc/en-us
 common:
+  - type: OAuthScopes
+    url: scopes/alloy-scopes.yml
   - type: Website
     url: https://www.alloy.com
   - type: Documentation

@@ -67,6 +67,10 @@ apis:
       - FN: Alloy Support
         url: https://help.alloy.com/hc/en-us
 common:
+  - type: DomainSecurity
+    url: security/alloy-domain-security.yml
+  - type: Authentication
+    url: authentication/alloy-authentication.yml
   - type: OAuthScopes
     url: scopes/alloy-scopes.yml
   - type: Website

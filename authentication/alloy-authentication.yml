@@ -1,0 +1,25 @@
+generated: '2026-07-11'
+method: derived
+source: openapi/alloy-identity-api-openapi.yml
+summary:
+  types:
+  - http
+  - oauth2
+  oauth2_flows:
+  - clientCredentials
+schemes:
+- name: basic
+  type: http
+  scheme: basic
+  description: HTTP basic authorization using a workflow token and secret
+  sources:
+  - openapi/alloy-identity-api-openapi.yml
+- name: oauth2
+  type: oauth2
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/bearer
+    scopes: 0
+  description: OAuth2 using a workflow token and secret to generate a bearer token
+  sources:
+  - openapi/alloy-identity-api-openapi.yml

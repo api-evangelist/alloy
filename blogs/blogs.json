@@ -2,17 +2,17 @@
   "repo": "alloy",
   "feeds": [
     {
-      "source": "https://www.alloy.com/blog",
+      "source": "https://www.alloy.com/blog/feed.rss",
       "feed_url": "https://www.alloy.com/blog/feed.rss",
       "title": "",
-      "saved": 2,
-      "method": "discovered"
+      "saved": 0,
+      "method": "feed"
     },
     {
       "source": "https://www.linkedin.com/company/alloy-apis",
       "error": "HTTPError"
     }
   ],
-  "fetched": "2026-06-27T12:03:07Z",
-  "post_count": 7
+  "fetched": "2026-07-11T11:50:51Z",
+  "post_count": 15
 }

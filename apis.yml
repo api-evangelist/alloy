@@ -67,6 +67,8 @@ apis:
       - FN: Alloy Support
         url: https://help.alloy.com/hc/en-us
 common:
+  - type: AgenticAccess
+    url: agentic-access/alloy-agentic-access.yml
   - type: DomainSecurity
     url: security/alloy-domain-security.yml
   - type: Authentication
